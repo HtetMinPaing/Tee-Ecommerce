@@ -1,19 +1,29 @@
 .navbar {
     display: flex;
     justify-content: space-around;
-    padding: 16px;
+    padding: 2rem;
     box-shadow: 0 1px 3px -2px black;
+    background:  #977bb8;
+    /* 
+    716674
+    7c6496
+    */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 2rem;
 }
 
 .nav-logo p{
     color: #171717;
-    font-size: 38px;
+    font-size: 4rem;
     font-weight: 600;
 }
 
@@ -21,10 +31,9 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 50px;
-    color: #626262;
-    font-size: 20px;
-    font-weight: 500;
+    gap: 5rem;
+    color: #877f7f;
+    font-size: 6rem;
 }
 
 .nav-menu li {
@@ -32,33 +41,42 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 3px;
+    gap: 0.5rem;
     cursor: pointer;
 }
+
+.nav-menu .li {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-menu .li:hover {
+    color: #ffffff;
+}
+
 
 .nav-menu hr {
     border: none;
     width: 80%;
-    height: 3px;
-    border-radius: 10px;
-    background: #FF4141;
+    height: 0.3rem;
+    border-radius: 1rem;
+    background: #ff4141;
 }
 
 .nav-login-cart {
     display: flex;
     align-items: center;
-    gap: 45px;
+    gap: 4rem;
 }
 
 .nav-login-cart button{
-    width: 157px;
-    height: 58px;
+    width: 15rem;
+    height: 6rem;
     outline: none;
-    border: 1 px solid #7a7a7a;
-    border-radius: 75px;
+    border: 0.1rem solid #7a7a7a;
+    border-radius: 5rem;
     color: #515151;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 3rem;
     background: white;
     cursor: pointer;
 }
@@ -67,16 +85,26 @@
     background: #f3f3f3;
 }
 
+.nav-login-cart button:checked{
+    background: #ff4141;
+}
+
+.nav-login-cart button:hover{
+    background: #ff4141;
+    color: #f3f3f3;
+    transition: 1s;
+}
+
 .nav-cart-count{
-    width: 22px;
-    height: 22px;
+    width: 2rem;
+    height: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -35px;
-    margin-left: -55px;
-    border-radius: 11px;
-    font-size: 14px;
+    margin-top: -3rem;
+    margin-left: -5rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
     background: red;
     color: white;
 }
