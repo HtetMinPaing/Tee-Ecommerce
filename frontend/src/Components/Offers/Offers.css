@@ -3,9 +3,9 @@
     height: 60vh;
     display: flex;
     margin: auto;
-    padding: 0px 14px;
-    margin-bottom: 150px;
-    border-radius: 50px 100px;
+    padding: 0px 2rem;
+    margin-bottom: 15rem;
+    border-radius: 8rem 16rem;
     background: linear-gradient(225deg, #ff4141, #f8baba 60%, #f47777);
 }
 
@@ -14,31 +14,31 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 20px;
+    padding-left: 7rem;
 }
 
 .offers-left h1{
     color: #171717;
-    font-size: 80px;
+    /* font-size: 80px; */
     font-weight: 600;
 }
 
 .offers-left p {
     color: #171717;
-    font-size: 22px;
+    /* font-size: 22px; */
     font-weight: 600;
 }
 
 .offers-left button {
-    width: 282px;
-    height: 70px;
-    border-radius: 35px;
+    width: 25rem;
+    height: 7rem;
+    border-radius: 5rem;
     background: #ff4141;
     border: none;
     color: white;
-    font-size: 22px;
+    /* font-size: 22px; */
     font-weight: 500;
-    margin-top: 30px;
+    margin-top: 5rem;
     cursor: pointer;
 }
 
@@ -47,5 +47,5 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-top: 50px;
+    padding-top: 5rem;
 }

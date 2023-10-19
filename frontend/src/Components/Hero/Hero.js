@@ -8,15 +8,15 @@ const Hero = () => {
   return (
     <div className='hero'>
         <div className='hero-left'>
-            <h2>New Arrival Only</h2>
+            <h2 id='medium-text'>New Arrival Only</h2>
             <div className='hand-icon'>
-                <p>new</p>
+                <p id='header-one'>new</p>
                 <img src={hand_icon} alt='' />
             </div>
-            <p>Collections</p>
-            <p>For Everyone</p>
+            <p id='header-one'>Collections</p>
+            <p id='header-one'>For Everyone</p>
             <div className='latest-collection'>
-                <div>Latest Collection</div>
+                <div id='medium-text'>Latest Collection</div>
                 <img src={arrow_icon} alt="" />
             </div>
         </div>

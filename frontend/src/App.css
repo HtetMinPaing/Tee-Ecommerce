@@ -60,8 +60,24 @@
   font-size: 62.5%;
 }
 
-.text {
-  font-size: 4rem;
+#text {
+  font-size: 3rem;
+}
+
+#medium-text {
+  font-size: 2.5rem;
+}
+
+#small-text {
+  font-size: 2rem;
+}
+
+#header {
+  font-size: 4.5rem;
+}
+
+#header-one {
+  font-size: 8rem;
 }
 
 @media (max-width:400px) {

@@ -11,14 +11,14 @@ const Footer = () => {
     <div className='footer'>
         <div className='footer-logo'>
             <img src={footer_logo} alt='' />
-            <p>Tee's shop</p>
+            <p id='header'>Tee's shop</p>
         </div>
         <ul className='footer-links'>
-            <li>Company</li>
-            <li>Products</li>
-            <li>Offices</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li id='medium-text'>Company</li>
+            <li id='medium-text'>Products</li>
+            <li id='medium-text'>Offices</li>
+            <li id='medium-text'>About</li>
+            <li id='medium-text'>Contact</li>
         </ul>
         <div className='footer-social'>
             <div className='footer-icon'>
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
         <div className='footer-copyright'>
             <hr/>
-            <p>Copyright @ 2023 - All Right Reserve</p>
+            <p id='small-text'>Copyright @ 2023 - All Right Reserve</p>
         </div>
     </div>
   )
